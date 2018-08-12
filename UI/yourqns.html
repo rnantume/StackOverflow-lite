@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StackOverflow-lite</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+            <header class="header1" role="banner">
+                    <div class="logo">StackOverflow-lite</div>
+                    <div class="">
+                            <img src="assets/img/me.jpg" class="profile_pic" alt="profile pic missing">
+                    </div>
+                    <div class="dropdown">
+                            <span class="dropbtn">Account</span>
+                            <div class="dropdown-content">
+                              <a href="login.html">Sign out</a>
+                           </div>
+                    </div>
+                </header>
+        <nav class="main-nav">
+            <ul class="nav-container">
+                <li><a href="otherqns.html">Home</a></li>|
+                <li><a href="yourqns.html" class="active">Your Questions</a></li>
+            </ul>
+        </nav>
+        <main class="main-content-qn-body">
+            <div class="my-questions">
+                <h2>Your Questions:</h2>
+                <div class="single-question">
+                        <span class="date">29 Nov 2018, 18:23 Pm</span>
+                        <div class="query">
+                                <h4>Regular Expressions: <div class="dropdown">
+                                        <span class="dropbtn">...</span>
+                                        <div class="dropdown-content">
+                                          <a href="#">View</a>
+                                          <a href="#">Delete</a>
+                                       </div>
+                                </div></h4>
+                               <p>
+                                <p>What can I do if I have a large project, with dozens or even hundreds
+                                of unit test methods spread across several classes and you want to share
+                                some setup or cleanup code between those tests?&hellip;</p>
+                                </p>
+                        </div>
+                        <div class="response">
+                                <header>
+                                        <img src="assets/img/prof2.jpg" class="users_pic" alt="profile pic missing">
+                                        <span class="username">Tawa</span>
+                                        <span class="status">Responded:</span>
+                                        <span class="date">1 Dec 2018, 20:12 Am</span>
+                                    </header>
+                                        <blockquote>
+                                        <p>One approach would be to create some initialize and cleanup helper methods in a
+                                        separate class and call those methods from each of your individual test classes 
+                                        initialize and cleanup methods. 
+                                        </blockquote>
+                                        <div class="comment-section">
+                                                <div><span id="number">7</span><span id="type"> votes</span></div>
+                                                <div><span id="number">4</span><span id="type"> downvotes</span></div>
+                                                <div><span id="number">6</span><span id="type"> comments</span></div>
+                                                <div class="dropdown">
+                                                        <span class="dropbtn">...</span>
+                                                        <div class="dropdown-content">
+                                                          <a href="#">Accept</a>
+                                                          <a href="#">Decline</a>
+                                                          <a href="#">Give a vote</a>
+                                                          <a href="#">No vote</a>
+                                                          <a href="#">Comment</a>
+                                                       </div>
+                                                </div>
+                                             </div>
+                        </div>
+                        <div class="response">
+                                <header>
+                                        <img src="assets/img/prof3.jpg" class="users_pic" alt="profile pic missing">
+                                        <span class="username">Andrew</span>
+                                        <span class="status">Responded:</span>
+                                        <span class="date">30 Nov 2018, 20:12 Am</span>
+                                    </header>
+                                        <blockquote>
+                                        <p>One approach would be to create some initialize and cleanup helper methods in a
+                                        separate class and call those methods from each of your individual test classes 
+                                        initialize and cleanup methods. 
+                                        </blockquote>
+                                        <div class="comment-section">
+                                                <div><span id="number">7</span><span id="type"> votes</span></div>
+                                                <div><span id="number">4</span><span id="type"> downvotes</span></div>
+                                                <div><span id="number">6</span><span id="type"> comments</span></div>
+                                                <div class="dropdown">
+                                                        <span class="dropbtn">...</span>
+                                                        <div class="dropdown-content">
+                                                          <a href="#">Accept</a>
+                                                          <a href="#">Decline</a>
+                                                          <a href="#">Give a vote</a>
+                                                          <a href="#">No vote</a>
+                                                          <a href="#">Comment</a>
+                                                       </div>
+                                                </div>
+                                             </div>
+                        </div>
+                </div>
+                
+                <div>
+                    <span class="date">10 Nov 2018, 19:00 Pm</span>
+                    <div class="query">
+                            <h4>PeeWee DB: <div class="dropdown">
+                                    <span class="dropbtn">...</span>
+                                    <div class="dropdown-content">
+                                      <a href="#">View</a>
+                                      <a href="#">Delete</a>
+                                   </div>
+                            </div></h4>
+                           <p>
+                            <p>What can I do if I have a large project, with dozens or even hundreds
+                            of unit test methods spread across several classes and you want to share
+                            some setup or cleanup code between those tests?&hellip;</p>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <aside class="side-content" >
+                    <div class="post-form" >
+                        <header>
+                            <h4>Post your question here</h4>
+                        </header>
+                        <form>
+                            <input type="text" class="field topic" id="topic"required placeholder="Topic">
+                            <textarea class="descrip" id="querry" cols="40" rows="15" required placeholder="Description"></textarea>
+                            <button>Post Question!</button>
+                        </form>
+                    </div>
+                    
+                </aside>
+
+        </main>                
+    <footer class="footer1" >
+        <ul class="nav-container">
+        <li><a href="#">Robin &copy;</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+        </main>
+        <footer class="footer">
+
+        </footer>
+</html>
