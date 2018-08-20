@@ -1,0 +1,5 @@
+#Environments
+venv/
+
+.pytest_cache
+.vscode
