@@ -2,6 +2,8 @@ from flask import Flask
 from flask import Blueprint
 
 
+
+
 def create_app():
     """create and configure app object"""
     
@@ -19,8 +21,10 @@ def create_app():
     registering the questions_bp and answers_bp blueprints
     """
     from resources.questions import questions_bp
+    from resources.answers import answers_bp
 
     app.register_blueprint(questions_bp, url_prefix='/StackOverflow-lite/api/v1')
+    app.register_blueprint(answers_bp, url_prefix='/StackOverflow-lite/api/v1')
     
     return app
 
@@ -29,5 +33,3 @@ if __name__ == '__main__':
     
     app = create_app()
     app.run(debug=True)
-
- 
