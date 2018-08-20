@@ -4,7 +4,7 @@ from flask import Blueprint
 from instance.config import app_config
 
 def create_app(config_name):
-    """create and configure app object"""
+    """create and configure app"""
     
     app = Flask(__name__)
 
